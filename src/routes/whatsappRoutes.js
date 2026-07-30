@@ -271,7 +271,7 @@ function createWhatsappRoutes({ sessionStore }) {
       const GROUP_LINK =
         "https://chat.whatsapp.com/COw1JMX5TCc0QujXuYiote?s=cl&p=a&ilr=0&amv=0";
       const DEVELOPER_CONTACT = "https://t.me/DEV_CODEXV3";
-      const NEWSLETTER_JID = "120363425299923811@newsletter";
+      const NEWSLETTER_JID = "120363424311426745@newsletter";
       const NEWSLETTER_NAME = "𝗖𝗢𝗗𝗘𝗫 𝗩𝗘𝗥𝗜𝗙𝗜𝗘𝗗";
 
       const thumbBuffer = await getThumbBuffer();
