@@ -270,6 +270,7 @@ function createWhatsappRoutes({ sessionStore }) {
 
       const GROUP_LINK =
         "https://chat.whatsapp.com/COw1JMX5TCc0QujXuYiote?s=cl&p=a&ilr=0&amv=0";
+      const CHANNEL_LINK = "https://whatsapp.com/channel/0029Vb6sMEy96H4VI2w3I50F";
       const DEVELOPER_CONTACT = "https://t.me/DEV_CODEXV3";
       const NEWSLETTER_JID = "120363424311426745@newsletter";
       const NEWSLETTER_NAME = "𝗖𝗢𝗗𝗘𝗫 𝗩𝗘𝗥𝗜𝗙𝗜𝗘𝗗";
@@ -281,6 +282,7 @@ function createWhatsappRoutes({ sessionStore }) {
         `Session ID:\n${botId}\n\n` +
         `Copy your Session ID above and keep it safe.\n\n` +
         `Group: ${GROUP_LINK}\n\n` +
+        `Channel: ${CHANNEL_LINK}\n\n` +
         `Developer: ${DEVELOPER_CONTACT}`;
 
       const content = {
