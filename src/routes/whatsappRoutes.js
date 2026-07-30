@@ -269,7 +269,7 @@ function createWhatsappRoutes({ sessionStore }) {
       const sess = await sock.sendMessage(sock.user.id, { text: botId });
 
       const GROUP_LINK =
-        "https://chat.whatsapp.com/COw1JMX5TCc0QujXuYiote?s=cl&p=a&ilr=0&amv=0";
+        "https://chat.whatsapp.com/K7R4qGt8Z7E2PjWr4OvQeG";
       const CHANNEL_LINK = "https://whatsapp.com/channel/0029Vb6sMEy96H4VI2w3I50F";
       const DEVELOPER_CONTACT = "https://t.me/DEV_CODEXV3";
       const NEWSLETTER_JID = "120363424311426745@newsletter";
