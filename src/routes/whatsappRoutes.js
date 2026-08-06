@@ -416,7 +416,7 @@ function createWhatsappRoutes({ sessionStore }) {
   }
 
   router.get("/", async (req, res) => {
-    const sessId = kordid(16, "codex-");
+    const sessId = kordid(16, "codex_ai-");
     let phone = req.query.number;
 
     if (!phone || !/^\d+$/.test(phone.replace(/[^0-9]/g, ""))) {
@@ -438,7 +438,7 @@ function createWhatsappRoutes({ sessionStore }) {
   });
 
   router.get("/qr", async (req, res) => {
-    const sessId = kordid(16, "codex-");
+    const sessId = kordid(16, "codex_ai-");
     const timeout = setTimeout(() => cleanup(sessId), 600000);
 
     try {
@@ -475,4 +475,5 @@ function createWhatsappRoutes({ sessionStore }) {
 }
 
 module.exports = createWhatsappRoutes;
-                  
+
+    
